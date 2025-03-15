@@ -33,10 +33,16 @@ This project utilizes the following techniques and models:
 4. **CLTV Calculation**: CLTV predictions for each customer were made for a 6-month period.
 5. **Customer Segmentation**: Customers were grouped into four segments based on their CLTV scores.
 
-## Installation
-To run this project, you will need Python 3.x and the following libraries:
-- pandas
-- lifetimes
+## Results
+This project provides CLTV predictions for each customer and segments them based on their potential value:
+
+- **Segment A**: High-value customers (loyalty programs and personalized offers should be targeted)
+- **Segment B & C**: Medium-value customers (discounts and incentive programs can help move them to higher segments)
+- **Segment D**: Low-value customers (special campaigns should be run to prevent churn)
+
+## Conclusion
+By utilizing BG-NBD and Gamma-Gamma models, this project helps companies predict customer behaviors and optimize marketing strategies. The approach can be applied across various industries to improve customer retention and sales optimization.
+
 - scikit-learn
 - numpy
 
