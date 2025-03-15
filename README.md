@@ -42,10 +42,3 @@ This project provides CLTV predictions for each customer and segments them based
 
 ## Conclusion
 By utilizing BG-NBD and Gamma-Gamma models, this project helps companies predict customer behaviors and optimize marketing strategies. The approach can be applied across various industries to improve customer retention and sales optimization.
-
-- scikit-learn
-- numpy
-
-You can install the required libraries by running:
-```bash
-pip install pandas lifetimes scikit-learn numpy
